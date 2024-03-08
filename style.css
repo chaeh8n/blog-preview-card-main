@@ -26,6 +26,11 @@ body {
   border: 1px solid black;
   border-radius: 18px;
   box-shadow: 10px 10px 0px -1px black;
+  transition: box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+  box-shadow: 20px 20px 0px -1px black;
 }
 
 .illustration-image {
@@ -49,14 +54,12 @@ body {
   font-weight: 800;
   display: inline-block;
   margin: 1.1rem 0;
+  transition: color 0.2s ease;
 }
 
 .main-text:hover {
   color: hsl(47, 88%, 63%);
   cursor: pointer;
-  /* transition-delay: 120ms; */
-  transition-delay: 2s;
-  /* transition-property: color; */
 }
 
 .explanation-text {
