@@ -90,3 +90,29 @@ body {
   bottom: 2%;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+
+  .info-card {
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+
+  .attribution {
+    font-size: 0.5rem;
+  }
+}
+
+@media ((min-width: 376px) and (max-width: 600px)) {
+  .info-card {
+    transform: scale(0.8);
+    transform-origin: center;
+  }
+
+  .attribution {
+    font-size: 0.6rem;
+  }
+}
