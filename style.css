@@ -101,7 +101,7 @@ body {
   border: 1px solid var(--black);
   border-radius: 18px;
   box-shadow: 10px 10px 0px -1px var(--black);
-  transition: box-shadow 0.2s ease;
+  transition: all 0.2s;
 }
 
 .info-card:hover {
@@ -123,14 +123,21 @@ body {
   border-radius: 5px;
 }
 
-.main-text {
+.title {
   font-size: 1.5rem;
   font-weight: 800;
   display: inline-block;
-  transition: color 0.2s ease;
 }
 
-.main-text:hover {
+.title-link:link, 
+.title-link:visited {
+  text-decoration: none;
+  color: var(--black);
+  transition: all 0.2s;
+}
+
+.title-link:hover,
+.title-link:active {
   color: var(--yellow);
   cursor: pointer;
 }
